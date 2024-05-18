@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pratik's Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon"
+        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-pcpmu&psig=AOvVaw1dNNCJP-pxzdrmBMTJOsY1&ust=1712383549932000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKilkIO0qoUDFQAAAAAdAAAAABAJ"
+        type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Indie+Flower'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/services.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="fixed-content">
+            <img class="port" src="img/profilePhoto.jpg">
+            <h2>Pratik Karangle</h2>
+            <p style="color:#fff;">Web Developer | Data Science Enthusiast</p>
+            <div class="icon-row">
+                <a href="https://github.com/PratikKarangle?tab=repositories"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/pratik_21.06/?hl=en"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pratik-karangle-3863a1219/"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="second">
+        <div class="fixed-content">
+            <h1>About me</h1>
+            <p>I am a final year Computer Science undergraduate at MIT Academy of Engineering, Pune, specializing in
+                Python, Deep Learning, and web development using Node.js, MongoDB, HTML, CSS, and JavaScript. Passionate
+                about leveraging technology to solve real-world problems, I am particularly interested in the field of
+                Data Science. With a strong academic foundation and practical experience, I am eager to contribute to
+                innovative projects and drive positive change in the tech industry.
+            </p>
+        </div>
+    </div>
+
+    <section class="colorlib-about" data-section="about">
+        <div class="container">
+            <div class="row" style="padding-left: 250px;">
+                <script type="text/javascript">
+                    var domains = ["Web Development", "Courses", "Achievements & Awards"];
+                    var icons = ["desktop", "key", "code"];
+                    var urls = ["web_projects/index.html", "web_projects/index2.html", "web_projects/index3.html"
+                    ];
+                    var ids = [3, 4, 1];
+                    for (let i = 0; i < domains.length; i++) {
+                        var dir = (ids[i] % 2 == 0) ? "Right" : "Left";
+                        document.write(
+                            '<div class="col-sm-3 animate-box" data-animate-effect="fadeIn' + dir + '">\
+                              <a href="' + urls[i] + '" >\
+                                <div class="services color-' + ids[i] + '">\
+                                  <span class="icon2"><i class="fa fa-' + icons[i] + '"></i></span>\
+                                  <h3>' + domains[i] + '</h3>\
+                                </div>\
+                              </a>\
+                            </div>'
+                        );
+                    }
+
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section class="colorlib-skills" data-section="skills">
+        <div class="colorlib-narrow-content">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <h2>My Skills</h2>
+                    <hr>
+                </div>
+            </div>
+            <p class="animate-box" data-animate-effect="fadeInLeft">Few of the skills that I consider myself
+                acquainted with, to serve the given opportunity are showcased here.</p>
+            <div class="container">
+                <div class="row">
+                    <script type="text/javascript">
+                        var skills = ["C++", "Python", "Java", "HTML/CSS/Javascript", "Node", "MongoDB",
+
+                        ];
+                        var value = [75, 85, 70, 80, 75, 70, 80, 65];
+                        for (let i = 0; i < skills.length; i++) {
+                            var dir = (i % 2 == 0) ? "Right" : "Left";
+                            document.write(
+                                '<div class="col-md-6 animate-box" data-animate-effect="fadeIn' + dir + '">\
+                                  <div class="progress-wrap">\
+                                      <h3>' + skills[i] + '</h3>\
+                                      <div class="progress">\
+                                          <div class="progress-bar color-' + (i + 1) +
+                                '" role="progressbar" aria-valuenow="' + value[i] +
+                                '" aria-valuemin="0" aria-valuemax="100" style="width:' + value[i] + '%">\
+                                              <span>' + value[i] + '%</span>\
+                                          </div>\
+                                      </div>\
+                                  </div>\
+                              </div>');
+                        }
+
+                    </script>
+                </div>
+            </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section class="colorlib-experience" data-section="experience">
+        <div class="colorlib-narrow-content">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <h2>Work Experience</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="timeline-centered">
+                            <script type="text/javascript">
+                                var timeSpan = ["May 2023 - July 2023", "Oct 2023 - Dec 2023", "Jan 2024 - present"
+
+                                ];
+                                var AT = ["Pixestat eSolutions Development Pvt Ltd",
+                                    "Steepgraph Pvt Ltd",
+                                    "Bentley Systems Pvt Ltd",
+                                ];
+                                var internType = ["Web Development Intern", "Java Developer", "Software Development Intern",
+
+                                ];
+                                var descriptions = [
+                                    "Developed a web application for customer-centric subpackage management, enabling QR code generation and scanning. Empowered tracking of product manufacturing and expiry dates, along with comprehensive data on QR printing, including user and date information.",
+                                    "Gained practical experience in customizing Product Lifecycle Management (PLM) software using Java. During this engagement, I acquired proficiency in new technologies such as MQL and utilized my skills in HTML, CSS, and JavaScript to generate widgets for enhanced user experiences.",
+                                    "Serving as a Software Development Intern at Bentley Systems Pvt Ltd, contributing to the advancement of their renowned Staad Pro product within the Engineering Simulation Team. In this role, I am immersed in the dynamic world of software development, collaborating with seasoned professionals to enhance and refine Staad Pro's capabilities. This experience allows me to apply my technical skills in a real-world setting, pushing the boundaries of technology and driving innovation in the field of engineering."
+                                ];
+                                var iclass = ["desktop", "code", "user", "globe"];
+                                var color = [5, 1, 2];
+                                for (let i = 0; i < AT.length; i++) {
+                                    var dir = (i % 2 == 0) ? "Right" : "Left";
+                                    document.write(
+                                        '<article class="timeline-entry animate-box" data-animate-effect="fadeIn' +
+                                        dir + '">\
+										<div class="timeline-entry-inner">\
+											<div class="timeline-icon color-' + color[i] + '">\
+												<i class="fa fa-' + iclass[i] + '"></i>\
+											</div>\
+											<div class="timeline-label">\
+												<h2><a href="#">' + AT[i] + '</a> <span>' + timeSpan[i] + '</span></h2>\
+												<p><strong><a href="#">' + internType[i] + '</a></strong>\
+													<br> ' + descriptions[i] + '</p>\
+												<p></p>\
+											</div>\
+										</div>\
+									</article>');
+                                }
+
+                            </script>
+                            <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                <div class="timeline-entry-inner">
+                                    <div class="timeline-icon color-3">
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+    </section>
+
+
+    <section class="colorlib-project" data-section="project">
+        <div class="colorlib-narrow-content">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <h2>Projects</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <script type="text/javascript">
+                        var domains = ["Quizmo- the smart quiz portal",
+                            "Online Mall Management System",
+                            "Smart Eye"
+                        ];
+                        var ppDomains = [
+                            "i. Developed a quiz portal that produces a detailed report of a student. <br>ii. Redesigned and rebuilt a user friendly interface for both teachers and students.<br>iii. Introduced new methodologies (such as tracking students' click events with timestamps) to improve student assessment.<br>iv. For better assessment of individual student, innovated 3 new parameters - confidence score, attempt pattern, time spent on individual question vs expected time by the teacher.",
+                            "i. Developed the Mall management website. <br>ii. The system aimed to serve mall managers and end customers.<br> iii. Improved navigation for elderly customers in a mall by introducing interactive map of the mall.",
+
+                            "i. Developed a software prototype for a solution to navigation of visually impaired people.<br>ii. Can be built in lesser cost compared to other hardware based solution.<br>iii. The prototype focusses on reducing accidents of visually impaired people, which are mostly due to collision with obstacles.<br>iv. Has a potential to be integrated with an android application to improve portability.",
+                        ];
+                        var urls = ["https://github.com/PratikKarangle/QuizmoNew",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ];
+                        var icons = ["question", "shopping-cart", "eye", "user"];
+                        for (let i = 0; i < domains.length; i++) {
+                            var dir = (ids[i] % 2 == 0) ? "Right" : "Left";
+                            document.write(
+                                '<div class="col-md-12 animate-box" data-animate-effect="fadeIn' + dir + '">\
+                              <a href="' + urls[i] + '" >\
+                                <div class="services color-' + (i + 1) + '">\
+                                  <span class="icon2"><i class="fa fa-' + icons[i] + '"></i></span>\
+                                  <h3>' + domains[i] + '</h3>\
+                                  <p>' + ppDomains[i] + '</p>\
+                                </div>\
+                              </a>\
+                            </div>'
+                            );
+                        }
+
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="footer">
+        <div class="second">
+            <div class="fixed-content">
+                <h1>Contact Me</h1>
+            </div>
+        </div>
+        <div class="fixed-content">
+            <div class="icon-row blue">
+                <a href="https://www.linkedin.com/in/pratik-karangle-3863a1219/"><i class="fa fa-linkedin"></i></a>
+                <a href="mailto:karanglepratik@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.instagram.com/pratik_21.06/?hl=en"><i class="fa fa-instagram"></i></a>
+            </div>
+            <p></p>
+            <i class="fa fa-chevron-up black" style="color:#000;"
+                onclick="window.scroll({  top: 0,  left: 0,  behavior: 'smooth'});"></i>
+        </div>
+    </div>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
